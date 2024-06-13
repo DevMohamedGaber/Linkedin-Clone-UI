@@ -1,0 +1,60 @@
+body {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+background-color: #eee;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+
+h1 {
+font-size: 24px;
+margin-bottom: 20px;
+color: #3B66C6;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.form-control {
+width: 300px;
+padding: 10px 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.btn-login {
+background-color: #3B66C6;
+color: #fff;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 15px;
+}
+
+.btn-primary:hover {
+background-color: #3B66C6;
+}
+
+a {
+color: #3B66C6;
+text-decoration: none;
+margin-top: 10px;
+display: block;
+font-size: 22px;
+
+}
+
+a:hover {
+color: #3B66C6;
+}

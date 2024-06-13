@@ -1,0 +1,126 @@
+
+
+.post{
+    background-color: #ffff;
+    padding: 20px 25px 10px;
+    margin: 5px 0 15px;
+    box-shadow: 0 0 25px rgb(179, 177, 177);   
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.post-author{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.post-author img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right:  10px;
+    margin-top: 5px;
+}
+
+.post-author h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.post-author small{
+    display: block;
+    margin-bottom: -2px;
+    color:#333333cb;
+}
+
+.post p{
+    font-size: 14px;
+    margin-bottom: 15px;    
+    width: fit-content;
+}
+
+
+.post-activity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.reactions{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.post-activity-link{
+    cursor: pointer;
+    width: 100%;
+
+}
+.post-activity-link i{
+    font-size: 20px;
+    color: #3B66C6;
+    cursor: pointer;
+}
+
+.post-activity-link span{
+    color: #3B66C6;
+}
+
+
+/* Comment */
+.comment-author{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.comment-author img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right:  10px;
+    margin-top: 5px;
+}
+
+.comment-author {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comment-author h1{
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.comment-author input{
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.comment-author li{
+    background-color: #3B66C6;
+    list-style: none;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.comment-author li i{
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
